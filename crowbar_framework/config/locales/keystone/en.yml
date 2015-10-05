@@ -43,3 +43,5 @@ en:
           insecure: 'SSL Certificate is insecure (for instance, self-signed)'
           cert_required: 'Require Client Certificate'
           ca_certs: 'SSL CA Certificates File'
+      validation:
+        timeout: 'Setting the Horizon timeout (%{horizon_timeout} minutes) longer than the Keystone token expiration timeout (%{keystone_minutes} minutes) is not supported.'
